@@ -1,0 +1,2 @@
+   // else
+    //   hex[i] = rem;

@@ -1,0 +1,1 @@
+{"name":"Local: 8-4_Max-till-i","url":"e:\\C++\\8-4_Max-till-i.cpp","tests":[{"id":1659462161161,"input":"6\n0 -9 1 3 -4 5\n2","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++\\8-4_Max-till-i.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 9-3_2d_Matrix_Search","url":"e:\\C++\\9-3_2d_Matrix_Search.cpp","tests":[{"id":1661948563143,"input":"4 4 5\n1 4 7 11\n2 5 8 12\n3 6 9 16\n10 13 14 17","output":"3 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++\\9-3_2d_Matrix_Search.cpp","group":"local","local":true}

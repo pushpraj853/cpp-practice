@@ -1,0 +1,1 @@
+{"name":"Local: 8","url":"e:\\C++\\8.6 Pair Sum Problem.cpp","tests":[{"id":1661938022966,"input":"8 31\n2 4 7 11 14 16 20 21","output":"3 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++\\8.6 Pair Sum Problem.cpp","group":"local","local":true}

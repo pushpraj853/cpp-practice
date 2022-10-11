@@ -1,0 +1,1 @@
+{"name":"Local: 8-4_Longest-Arithmatic-Subarray","url":"e:\\C++\\8-4_Longest-Arithmatic-Subarray.cpp","tests":[{"id":1659467139869,"input":"3\n3 3 3 ","output":"3"},{"id":1659467681724,"input":"7\n10 7 4 6 8 10 11","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++\\8-4_Longest-Arithmatic-Subarray.cpp","group":"local","local":true}
