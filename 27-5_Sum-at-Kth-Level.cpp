@@ -20,8 +20,10 @@ int sumAtK(Node *root, int k)
     return -1;
 
   queue<Node *> q;
+  // push the root node to start with
   q.push(root);
   q.push(NULL);
+  // root node is at level 0
   int level = 0;
   int sum = 0;
 
@@ -29,8 +31,11 @@ int sumAtK(Node *root, int k)
   {
     Node *node = q.front();
     q.pop();
+
+    // if front of queue is not NULL => some node
     if (node != NULL)
     {
+      // if we are at level k;
       if (level == k)
       {
         sum += node->data;
@@ -40,10 +45,15 @@ int sumAtK(Node *root, int k)
       if (node->right != NULL)
         q.push(node->right);
     }
+    // if it is NULL then we must check, has queue also gone empty ?
+    //=> YES=>tree has been traversed.
+    //=> NO=>there are level remaining.
     else if (!q.empty())
     {
+      // we have got NULL but queue was not Empty then,
+      // push NULL to the queue so, node of next level can come after it.
       q.push(NULL);
-      level++;
+      level++; // each time we recieve NULL from queue, it implies that a level has been traversed.
     }
   }
   return sum;

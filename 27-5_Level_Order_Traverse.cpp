@@ -37,13 +37,13 @@ void PrintLevelOrder(Node *root)
     {
       // then first we use that popped node itself
       cout << node->data << " ";
-      // and then check for left and right child
+      // and then check for left and right child of that popped node
       if (node->left != NULL)
         q.push(node->left);
       if (node->right != NULL)
         q.push(node->right);
     }
-    // after pop we recieve NULL but queue is not empty
+    // after pop we recieve NULL but queue is not empty =>
     // that one level has been traversed but still there are more to traverse
     else if (!q.empty())
     {

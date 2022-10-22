@@ -24,6 +24,9 @@ int treeHeight(Node *root)
   return max(lheight, rheight) + 1;
 }
 
+// it has time complexity of O(n*h)
+// n = number of nodes;
+/// h = height of tree;
 int treeDiameter(Node *root)
 {
   if (root == NULL)
@@ -34,6 +37,7 @@ int treeDiameter(Node *root)
   return max(option1, max(option2, option3));
 }
 
+// better method
 int calcDiameter(Node *root, int *height)
 {
   if (root == NULL)
